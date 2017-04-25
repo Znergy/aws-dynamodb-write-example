@@ -11,7 +11,7 @@ exports.handle = function(event, context, callback) {
       message: "I love your website"
     },
 
-    TableName: "guestBook"
+    TableName: "guestbook"
   };
 
   docClient.put(params, function(err, data) {
